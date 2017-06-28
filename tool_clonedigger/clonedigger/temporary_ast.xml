@@ -1,0 +1,1149 @@
+<?xml version="1.0" ?>
+<node name="COMPILATION_UNIT" line_number="1" start="0" stop="0">
+  <node name="PACKAGE_DECLARATION" line_number="1" start="0" stop="0">
+    <node name="assignment1" line_number="1" start="8" stop="18">
+    </node>
+  </node>
+  <node name="SINGLE_TYPE_IMPORT_DECLARATION" line_number="3" start="0" stop="0">
+    <node name="SELECT" line_number="3" start="0" stop="0">
+      <node name="SELECT" line_number="3" start="0" stop="0">
+        <node name="java" line_number="3" start="31" stop="34">
+        </node>
+        <node name="util" line_number="3" start="36" stop="39">
+        </node>
+      </node>
+      <node name="ArrayList" line_number="3" start="41" stop="49">
+      </node>
+    </node>
+  </node>
+  <node name="SINGLE_TYPE_IMPORT_DECLARATION" line_number="4" start="0" stop="0">
+    <node name="SELECT" line_number="4" start="0" stop="0">
+      <node name="SELECT" line_number="4" start="0" stop="0">
+        <node name="java" line_number="4" start="60" stop="63">
+        </node>
+        <node name="util" line_number="4" start="65" stop="68">
+        </node>
+      </node>
+      <node name="Arrays" line_number="4" start="70" stop="75">
+      </node>
+    </node>
+  </node>
+  <node name="SINGLE_TYPE_IMPORT_DECLARATION" line_number="5" start="0" stop="0">
+    <node name="SELECT" line_number="5" start="0" stop="0">
+      <node name="SELECT" line_number="5" start="0" stop="0">
+        <node name="java" line_number="5" start="86" stop="89">
+        </node>
+        <node name="util" line_number="5" start="91" stop="94">
+        </node>
+      </node>
+      <node name="List" line_number="5" start="96" stop="99">
+      </node>
+    </node>
+  </node>
+  <node name="SINGLE_TYPE_IMPORT_DECLARATION" line_number="6" start="0" stop="0">
+    <node name="SELECT" line_number="6" start="0" stop="0">
+      <node name="SELECT" line_number="6" start="0" stop="0">
+        <node name="SELECT" line_number="6" start="0" stop="0">
+          <node name="java" line_number="6" start="110" stop="113">
+          </node>
+          <node name="util" line_number="6" start="115" stop="118">
+          </node>
+        </node>
+        <node name="function" line_number="6" start="120" stop="127">
+        </node>
+      </node>
+      <node name="Function" line_number="6" start="129" stop="136">
+      </node>
+    </node>
+  </node>
+  <node name="SINGLE_TYPE_IMPORT_DECLARATION" line_number="8" start="0" stop="0">
+    <node name="SELECT" line_number="8" start="0" stop="0">
+      <node name="SELECT" line_number="8" start="0" stop="0">
+        <node name="data" line_number="8" start="149" stop="152">
+        </node>
+        <node name="CensusData" line_number="8" start="154" stop="163">
+        </node>
+      </node>
+      <node name="Person" line_number="8" start="165" stop="170">
+      </node>
+    </node>
+  </node>
+  <node name="SINGLE_TYPE_IMPORT_DECLARATION" line_number="9" start="0" stop="0">
+    <node name="SELECT" line_number="9" start="0" stop="0">
+      <node name="SELECT" line_number="9" start="0" stop="0">
+        <node name="data" line_number="9" start="181" stop="184">
+        </node>
+        <node name="CensusData" line_number="9" start="186" stop="195">
+        </node>
+      </node>
+      <node name="RegionData" line_number="9" start="197" stop="206">
+      </node>
+    </node>
+  </node>
+  <node name="SINGLE_TYPE_IMPORT_DECLARATION" line_number="10" start="0" stop="0">
+    <node name="SELECT" line_number="10" start="0" stop="0">
+      <node name="data" line_number="10" start="217" stop="220">
+      </node>
+      <node name="Filtering" line_number="10" start="222" stop="230">
+      </node>
+    </node>
+  </node>
+  <statement_node name="CLASS_DECLARATION" line_number="19" start="0" stop="0">
+    <node name="MODIFIERS" line_number="19" start="0" stop="0">
+      <node name="public" line_number="19" start="426" stop="431">
+      </node>
+    </node>
+    <node name="FilterRegionsTask" line_number="19" start="439" stop="455">
+    </node>
+    <node name="implements" line_number="19" start="457" stop="466">
+      <node name="Runnable" line_number="19" start="468" stop="475">
+      </node>
+    </node>
+    <node name="CLASS_BODY" line_number="21" start="0" stop="0">
+      <statement_node name="CLASS_DECLARATION" line_number="21" start="0" stop="0">
+        <node name="MODIFIERS" line_number="21" start="0" stop="0">
+          <node name="static" line_number="21" start="537" stop="542">
+          </node>
+        </node>
+        <node name="MutableInt" line_number="21" start="550" stop="559">
+        </node>
+        <node name="CLASS_BODY" line_number="0" start="0" stop="0">
+          <node name="FIELD_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="int" line_number="22" start="565" stop="567">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="22" start="0" stop="0">
+              <node name="val" line_number="22" start="569" stop="571">
+              </node>
+            </node>
+          </node>
+          <statement_node name="METHOD_DECLARATION" line_number="27" start="0" stop="0">
+            <node name="MODIFIERS" line_number="27" start="0" stop="0">
+              <node name="static" line_number="27" start="657" stop="662">
+              </node>
+            </node>
+            <node name="INSTANTIATION" line_number="27" start="0" stop="0">
+              <node name="List" line_number="27" start="664" stop="667">
+              </node>
+              <node name="TYPE_ARGUMENTS" line_number="27" start="0" stop="0">
+                <node name="MutableInt" line_number="27" start="669" stop="678">
+                </node>
+              </node>
+            </node>
+            <node name="generateList" line_number="27" start="681" stop="692">
+            </node>
+            <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+              <node name="FORMAL_PARAMETER" line_number="0" start="0" stop="0">
+                <node name="MODIFIERS" line_number="0" start="0" stop="0">
+                </node>
+                <node name="int" line_number="27" start="694" stop="696">
+                </node>
+                <node name="size" line_number="27" start="698" stop="701">
+                </node>
+              </node>
+            </node>
+            <statement_node name="BLOCK" line_number="0" start="0" stop="0">
+              <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+                <node name="MODIFIERS" line_number="0" start="0" stop="0">
+                </node>
+                <node name="INSTANTIATION" line_number="28" start="0" stop="0">
+                  <node name="List" line_number="28" start="709" stop="712">
+                  </node>
+                  <node name="TYPE_ARGUMENTS" line_number="28" start="0" stop="0">
+                    <node name="MutableInt" line_number="28" start="714" stop="723">
+                    </node>
+                  </node>
+                </node>
+                <node name="VARIABLE_DECLARATOR" line_number="28" start="0" stop="0">
+                  <node name="res" line_number="28" start="726" stop="728">
+                  </node>
+                  <node name="UNQUALIFIED_CLASS_INSTANCE_CREATION" line_number="28" start="0" stop="0">
+                    <node name="INSTANTIATION" line_number="28" start="0" stop="0">
+                      <node name="ArrayList" line_number="28" start="736" stop="744">
+                      </node>
+                      <node name="TYPE_ARGUMENTS" line_number="28" start="0" stop="0">
+                        <node name="MutableInt" line_number="28" start="746" stop="755">
+                        </node>
+                      </node>
+                    </node>
+                    <node name="ARGUMENTS" line_number="28" start="0" stop="0">
+                      <node name="EXPRESSION_LIST" line_number="28" start="0" stop="0">
+                        <node name="size" line_number="28" start="758" stop="761">
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+              <statement_node name="for" line_number="29" start="769" stop="771">
+                <node name="BASIC_FOR_CONTROL" line_number="0" start="0" stop="0">
+                  <node name="FOR_INIT_DECLARATION" line_number="0" start="0" stop="0">
+                    <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+                      <node name="MODIFIERS" line_number="0" start="0" stop="0">
+                      </node>
+                      <node name="int" line_number="29" start="773" stop="775">
+                      </node>
+                      <node name="VARIABLE_DECLARATOR" line_number="29" start="0" stop="0">
+                        <node name="i" line_number="29" start="777" stop="777">
+                        </node>
+                        <node name="0" line_number="29" start="781" stop="781">
+                        </node>
+                      </node>
+                    </statement_node>
+                  </node>
+                  <node name=";" line_number="29" start="782" stop="782">
+                  </node>
+                  <node name="&lt;" line_number="29" start="786" stop="786">
+                    <node name="i" line_number="29" start="784" stop="784">
+                    </node>
+                    <node name="size" line_number="29" start="788" stop="791">
+                    </node>
+                  </node>
+                  <node name=";" line_number="29" start="792" stop="792">
+                  </node>
+                  <node name="FOR_UPDATE" line_number="29" start="0" stop="0">
+                    <node name="EXPRESSION_LIST" line_number="29" start="0" stop="0">
+                      <node name="POST_INCREMENT_EXPRESSION" line_number="29" start="0" stop="0">
+                        <node name="i" line_number="29" start="794" stop="794">
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <statement_node name="BLOCK" line_number="30" start="0" stop="0">
+                  <statement_node name="EXPRESSION_STATEMENT" line_number="30" start="0" stop="0">
+                    <node name="CALL" line_number="30" start="0" stop="0">
+                      <node name="SELECT" line_number="30" start="0" stop="0">
+                        <node name="res" line_number="30" start="805" stop="807">
+                        </node>
+                        <node name="add" line_number="30" start="809" stop="811">
+                        </node>
+                      </node>
+                      <node name="ARGUMENTS" line_number="30" start="0" stop="0">
+                        <node name="EXPRESSION_LIST" line_number="30" start="0" stop="0">
+                          <node name="UNQUALIFIED_CLASS_INSTANCE_CREATION" line_number="30" start="0" stop="0">
+                            <node name="MutableInt" line_number="30" start="817" stop="826">
+                            </node>
+                            <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </statement_node>
+                </statement_node>
+              </statement_node>
+              <statement_node name="return" line_number="32" start="842" stop="847">
+                <node name="res" line_number="32" start="849" stop="851">
+                </node>
+              </statement_node>
+            </statement_node>
+          </statement_node>
+        </node>
+      </statement_node>
+      <node name="FIELD_DECLARATION" line_number="36" start="0" stop="0">
+        <node name="MODIFIERS" line_number="36" start="0" stop="0">
+          <node name="static" line_number="36" start="868" stop="873">
+          </node>
+        </node>
+        <node name="INSTANTIATION" line_number="36" start="0" stop="0">
+          <node name="List" line_number="36" start="875" stop="878">
+          </node>
+          <node name="TYPE_ARGUMENTS" line_number="36" start="0" stop="0">
+            <node name="MutableInt" line_number="36" start="880" stop="889">
+            </node>
+          </node>
+        </node>
+        <node name="VARIABLE_DECLARATOR" line_number="36" start="0" stop="0">
+          <node name="results" line_number="36" start="892" stop="898">
+          </node>
+        </node>
+      </node>
+      <node name="FIELD_DECLARATION" line_number="38" start="0" stop="0">
+        <node name="MODIFIERS" line_number="38" start="0" stop="0">
+          <node name="final" line_number="38" start="954" stop="958">
+          </node>
+        </node>
+        <node name="INSTANTIATION" line_number="38" start="0" stop="0">
+          <node name="List" line_number="38" start="960" stop="963">
+          </node>
+          <node name="TYPE_ARGUMENTS" line_number="38" start="0" stop="0">
+            <node name="RegionData" line_number="38" start="965" stop="974">
+            </node>
+          </node>
+        </node>
+        <node name="VARIABLE_DECLARATOR" line_number="38" start="0" stop="0">
+          <node name="data" line_number="38" start="977" stop="980">
+          </node>
+        </node>
+      </node>
+      <node name="FIELD_DECLARATION" line_number="39" start="0" stop="0">
+        <node name="MODIFIERS" line_number="39" start="0" stop="0">
+          <node name="final" line_number="39" start="1011" stop="1015">
+          </node>
+        </node>
+        <node name="INSTANTIATION" line_number="39" start="0" stop="0">
+          <node name="Function" line_number="39" start="1017" stop="1024">
+          </node>
+          <node name="TYPE_ARGUMENTS" line_number="39" start="0" stop="0">
+            <node name="Person" line_number="39" start="1026" stop="1031">
+            </node>
+            <node name="Boolean" line_number="39" start="1033" stop="1039">
+            </node>
+          </node>
+        </node>
+        <node name="VARIABLE_DECLARATOR" line_number="39" start="0" stop="0">
+          <node name="filter_criterion" line_number="39" start="1042" stop="1057">
+          </node>
+        </node>
+      </node>
+      <node name="FIELD_DECLARATION" line_number="0" start="0" stop="0">
+        <node name="MODIFIERS" line_number="0" start="0" stop="0">
+        </node>
+        <node name="MutableInt" line_number="41" start="1092" stop="1101">
+        </node>
+        <node name="VARIABLE_DECLARATOR" line_number="41" start="0" stop="0">
+          <node name="result" line_number="41" start="1103" stop="1108">
+          </node>
+        </node>
+      </node>
+      <statement_node name="METHOD_DECLARATION" line_number="47" start="0" stop="0">
+        <node name="MODIFIERS" line_number="47" start="0" stop="0">
+          <node name="static" line_number="47" start="1256" stop="1261">
+          </node>
+        </node>
+        <node name="VOID" line_number="0" start="0" stop="0">
+        </node>
+        <node name="init" line_number="47" start="1268" stop="1271">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+        </node>
+        <statement_node name="BLOCK" line_number="48" start="0" stop="0">
+          <statement_node name="EXPRESSION_STATEMENT" line_number="48" start="0" stop="0">
+            <node name="=" line_number="48" start="1287" stop="1287">
+              <node name="results" line_number="48" start="1279" stop="1285">
+              </node>
+              <node name="UNQUALIFIED_CLASS_INSTANCE_CREATION" line_number="48" start="0" stop="0">
+                <node name="INSTANTIATION" line_number="48" start="0" stop="0">
+                  <node name="ArrayList" line_number="48" start="1293" stop="1301">
+                  </node>
+                  <node name="TYPE_ARGUMENTS" line_number="48" start="0" stop="0">
+                    <node name="MutableInt" line_number="48" start="1303" stop="1312">
+                    </node>
+                  </node>
+                </node>
+                <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                </node>
+              </node>
+            </node>
+          </statement_node>
+        </statement_node>
+      </statement_node>
+      <statement_node name="METHOD_DECLARATION" line_number="54" start="0" stop="0">
+        <node name="MODIFIERS" line_number="54" start="0" stop="0">
+          <node name="static" line_number="54" start="1415" stop="1420">
+          </node>
+        </node>
+        <node name="int" line_number="54" start="1422" stop="1424">
+        </node>
+        <node name="getResult" line_number="54" start="1426" stop="1434">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+        </node>
+        <statement_node name="BLOCK" line_number="0" start="0" stop="0">
+          <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="int" line_number="55" start="1442" stop="1444">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="55" start="0" stop="0">
+              <node name="cnt" line_number="55" start="1446" stop="1448">
+              </node>
+              <node name="0" line_number="55" start="1452" stop="1452">
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="for" line_number="56" start="1458" stop="1460">
+            <node name="ENHANCED_FOR_CONTROL" line_number="0" start="0" stop="0">
+              <node name="MODIFIERS" line_number="0" start="0" stop="0">
+              </node>
+              <node name="MutableInt" line_number="56" start="1462" stop="1471">
+              </node>
+              <node name="res" line_number="56" start="1473" stop="1475">
+              </node>
+              <node name="results" line_number="56" start="1479" stop="1485">
+              </node>
+            </node>
+            <statement_node name="BLOCK" line_number="57" start="0" stop="0">
+              <statement_node name="EXPRESSION_STATEMENT" line_number="57" start="0" stop="0">
+                <node name="+=" line_number="57" start="1497" stop="1498">
+                  <node name="cnt" line_number="57" start="1493" stop="1495">
+                  </node>
+                  <node name="SELECT" line_number="57" start="0" stop="0">
+                    <node name="res" line_number="57" start="1500" stop="1502">
+                    </node>
+                    <node name="val" line_number="57" start="1504" stop="1506">
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+            </statement_node>
+          </statement_node>
+          <statement_node name="return" line_number="59" start="1517" stop="1522">
+            <node name="cnt" line_number="59" start="1524" stop="1526">
+            </node>
+          </statement_node>
+        </statement_node>
+      </statement_node>
+      <statement_node name="METHOD_DECLARATION" line_number="65" start="0" stop="0">
+        <node name="MODIFIERS" line_number="65" start="0" stop="0">
+          <node name="public" line_number="65" start="1610" stop="1615">
+          </node>
+          <node name="static" line_number="65" start="1617" stop="1622">
+          </node>
+        </node>
+        <node name="VOID" line_number="0" start="0" stop="0">
+        </node>
+        <node name="print_batch_info" line_number="65" start="1629" stop="1644">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+          <node name="FORMAL_PARAMETER" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="INSTANTIATION" line_number="65" start="0" stop="0">
+              <node name="List" line_number="65" start="1646" stop="1649">
+              </node>
+              <node name="TYPE_ARGUMENTS" line_number="65" start="0" stop="0">
+                <node name="FilterRegionsTask" line_number="65" start="1651" stop="1667">
+                </node>
+              </node>
+            </node>
+            <node name="jobs" line_number="65" start="1670" stop="1673">
+            </node>
+          </node>
+        </node>
+        <statement_node name="BLOCK" line_number="66" start="0" stop="0">
+          <statement_node name="EXPRESSION_STATEMENT" line_number="66" start="0" stop="0">
+            <node name="CALL" line_number="66" start="0" stop="0">
+              <node name="SELECT" line_number="66" start="0" stop="0">
+                <node name="SELECT" line_number="66" start="0" stop="0">
+                  <node name="System" line_number="66" start="1680" stop="1685">
+                  </node>
+                  <node name="out" line_number="66" start="1687" stop="1689">
+                  </node>
+                </node>
+                <node name="println" line_number="66" start="1691" stop="1697">
+                </node>
+              </node>
+              <node name="ARGUMENTS" line_number="66" start="0" stop="0">
+                <node name="EXPRESSION_LIST" line_number="66" start="0" stop="0">
+                  <node name="&quot;Batch info:&quot;" line_number="66" start="1699" stop="1711">
+                  </node>
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="EXPRESSION_STATEMENT" line_number="68" start="0" stop="0">
+            <node name="CALL" line_number="68" start="0" stop="0">
+              <node name="SELECT" line_number="68" start="0" stop="0">
+                <node name="SELECT" line_number="68" start="0" stop="0">
+                  <node name="System" line_number="68" start="1739" stop="1744">
+                  </node>
+                  <node name="out" line_number="68" start="1746" stop="1748">
+                  </node>
+                </node>
+                <node name="println" line_number="68" start="1750" stop="1756">
+                </node>
+              </node>
+              <node name="ARGUMENTS" line_number="68" start="0" stop="0">
+                <node name="EXPRESSION_LIST" line_number="68" start="0" stop="0">
+                  <node name="+" line_number="68" start="1770" stop="1770">
+                    <node name="&quot;- # jobs: &quot;" line_number="68" start="1758" stop="1769">
+                    </node>
+                    <node name="CALL" line_number="68" start="0" stop="0">
+                      <node name="SELECT" line_number="68" start="0" stop="0">
+                        <node name="jobs" line_number="68" start="1771" stop="1774">
+                        </node>
+                        <node name="size" line_number="68" start="1776" stop="1779">
+                        </node>
+                      </node>
+                      <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="double" line_number="69" start="1788" stop="1793">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="69" start="0" stop="0">
+              <node name="avg_ps" line_number="69" start="1795" stop="1800">
+              </node>
+              <node name="0" line_number="69" start="1804" stop="1804">
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="double" line_number="70" start="1810" stop="1815">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="70" start="0" stop="0">
+              <node name="min_ps" line_number="70" start="1817" stop="1822">
+              </node>
+              <node name="SELECT" line_number="70" start="0" stop="0">
+                <node name="Double" line_number="70" start="1826" stop="1831">
+                </node>
+                <node name="POSITIVE_INFINITY" line_number="70" start="1833" stop="1849">
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="double" line_number="71" start="1855" stop="1860">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="71" start="0" stop="0">
+              <node name="max_ps" line_number="71" start="1862" stop="1867">
+              </node>
+              <node name="SELECT" line_number="71" start="0" stop="0">
+                <node name="Double" line_number="71" start="1871" stop="1876">
+                </node>
+                <node name="NEGATIVE_INFINITY" line_number="71" start="1878" stop="1894">
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="double" line_number="72" start="1900" stop="1905">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="72" start="0" stop="0">
+              <node name="avg_rs" line_number="72" start="1907" stop="1912">
+              </node>
+              <node name="0" line_number="72" start="1916" stop="1916">
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="double" line_number="73" start="1922" stop="1927">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="73" start="0" stop="0">
+              <node name="min_rs" line_number="73" start="1929" stop="1934">
+              </node>
+              <node name="SELECT" line_number="73" start="0" stop="0">
+                <node name="Double" line_number="73" start="1938" stop="1943">
+                </node>
+                <node name="POSITIVE_INFINITY" line_number="73" start="1945" stop="1961">
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="double" line_number="74" start="1967" stop="1972">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="74" start="0" stop="0">
+              <node name="max_rs" line_number="74" start="1974" stop="1979">
+              </node>
+              <node name="SELECT" line_number="74" start="0" stop="0">
+                <node name="Double" line_number="74" start="1983" stop="1988">
+                </node>
+                <node name="NEGATIVE_INFINITY" line_number="74" start="1990" stop="2006">
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="for" line_number="75" start="2012" stop="2014">
+            <node name="ENHANCED_FOR_CONTROL" line_number="0" start="0" stop="0">
+              <node name="MODIFIERS" line_number="0" start="0" stop="0">
+              </node>
+              <node name="FilterRegionsTask" line_number="75" start="2016" stop="2032">
+              </node>
+              <node name="job" line_number="75" start="2034" stop="2036">
+              </node>
+              <node name="jobs" line_number="75" start="2039" stop="2042">
+              </node>
+            </node>
+            <statement_node name="BLOCK" line_number="0" start="0" stop="0">
+              <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+                <node name="MODIFIERS" line_number="0" start="0" stop="0">
+                </node>
+                <node name="int" line_number="76" start="2050" stop="2052">
+                </node>
+                <node name="VARIABLE_DECLARATOR" line_number="76" start="0" stop="0">
+                  <node name="ps" line_number="76" start="2054" stop="2055">
+                  </node>
+                  <node name="CALL" line_number="76" start="0" stop="0">
+                    <node name="SELECT" line_number="76" start="0" stop="0">
+                      <node name="job" line_number="76" start="2059" stop="2061">
+                      </node>
+                      <node name="getPersonsToFilter" line_number="76" start="2063" stop="2080">
+                      </node>
+                    </node>
+                    <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+              <statement_node name="EXPRESSION_STATEMENT" line_number="77" start="0" stop="0">
+                <node name="+=" line_number="77" start="2096" stop="2097">
+                  <node name="avg_ps" line_number="77" start="2089" stop="2094">
+                  </node>
+                  <node name="ps" line_number="77" start="2099" stop="2100">
+                  </node>
+                </node>
+              </statement_node>
+              <statement_node name="EXPRESSION_STATEMENT" line_number="78" start="0" stop="0">
+                <node name="=" line_number="78" start="2114" stop="2114">
+                  <node name="min_ps" line_number="78" start="2107" stop="2112">
+                  </node>
+                  <node name="CALL" line_number="78" start="0" stop="0">
+                    <node name="SELECT" line_number="78" start="0" stop="0">
+                      <node name="Math" line_number="78" start="2116" stop="2119">
+                      </node>
+                      <node name="min" line_number="78" start="2121" stop="2123">
+                      </node>
+                    </node>
+                    <node name="ARGUMENTS" line_number="78" start="0" stop="0">
+                      <node name="EXPRESSION_LIST" line_number="78" start="0" stop="0">
+                        <node name="min_ps" line_number="78" start="2125" stop="2130">
+                        </node>
+                        <node name="ps" line_number="78" start="2133" stop="2134">
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+              <statement_node name="EXPRESSION_STATEMENT" line_number="79" start="0" stop="0">
+                <node name="=" line_number="79" start="2149" stop="2149">
+                  <node name="max_ps" line_number="79" start="2142" stop="2147">
+                  </node>
+                  <node name="CALL" line_number="79" start="0" stop="0">
+                    <node name="SELECT" line_number="79" start="0" stop="0">
+                      <node name="Math" line_number="79" start="2151" stop="2154">
+                      </node>
+                      <node name="max" line_number="79" start="2156" stop="2158">
+                      </node>
+                    </node>
+                    <node name="ARGUMENTS" line_number="79" start="0" stop="0">
+                      <node name="EXPRESSION_LIST" line_number="79" start="0" stop="0">
+                        <node name="max_ps" line_number="79" start="2160" stop="2165">
+                        </node>
+                        <node name="ps" line_number="79" start="2168" stop="2169">
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+              <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+                <node name="MODIFIERS" line_number="0" start="0" stop="0">
+                </node>
+                <node name="int" line_number="80" start="2177" stop="2179">
+                </node>
+                <node name="VARIABLE_DECLARATOR" line_number="80" start="0" stop="0">
+                  <node name="rs" line_number="80" start="2181" stop="2182">
+                  </node>
+                  <node name="CALL" line_number="80" start="0" stop="0">
+                    <node name="SELECT" line_number="80" start="0" stop="0">
+                      <node name="job" line_number="80" start="2186" stop="2188">
+                      </node>
+                      <node name="getRegionsToFilter" line_number="80" start="2190" stop="2207">
+                      </node>
+                    </node>
+                    <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+              <statement_node name="EXPRESSION_STATEMENT" line_number="81" start="0" stop="0">
+                <node name="+=" line_number="81" start="2223" stop="2224">
+                  <node name="avg_rs" line_number="81" start="2216" stop="2221">
+                  </node>
+                  <node name="rs" line_number="81" start="2226" stop="2227">
+                  </node>
+                </node>
+              </statement_node>
+              <statement_node name="EXPRESSION_STATEMENT" line_number="82" start="0" stop="0">
+                <node name="=" line_number="82" start="2241" stop="2241">
+                  <node name="min_rs" line_number="82" start="2234" stop="2239">
+                  </node>
+                  <node name="CALL" line_number="82" start="0" stop="0">
+                    <node name="SELECT" line_number="82" start="0" stop="0">
+                      <node name="Math" line_number="82" start="2243" stop="2246">
+                      </node>
+                      <node name="min" line_number="82" start="2248" stop="2250">
+                      </node>
+                    </node>
+                    <node name="ARGUMENTS" line_number="82" start="0" stop="0">
+                      <node name="EXPRESSION_LIST" line_number="82" start="0" stop="0">
+                        <node name="min_rs" line_number="82" start="2252" stop="2257">
+                        </node>
+                        <node name="rs" line_number="82" start="2260" stop="2261">
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+              <statement_node name="EXPRESSION_STATEMENT" line_number="83" start="0" stop="0">
+                <node name="=" line_number="83" start="2276" stop="2276">
+                  <node name="max_rs" line_number="83" start="2269" stop="2274">
+                  </node>
+                  <node name="CALL" line_number="83" start="0" stop="0">
+                    <node name="SELECT" line_number="83" start="0" stop="0">
+                      <node name="Math" line_number="83" start="2278" stop="2281">
+                      </node>
+                      <node name="max" line_number="83" start="2283" stop="2285">
+                      </node>
+                    </node>
+                    <node name="ARGUMENTS" line_number="83" start="0" stop="0">
+                      <node name="EXPRESSION_LIST" line_number="83" start="0" stop="0">
+                        <node name="max_rs" line_number="83" start="2287" stop="2292">
+                        </node>
+                        <node name="rs" line_number="83" start="2295" stop="2296">
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+            </statement_node>
+          </statement_node>
+          <statement_node name="EXPRESSION_STATEMENT" line_number="85" start="0" stop="0">
+            <node name="/=" line_number="85" start="2315" stop="2316">
+              <node name="avg_ps" line_number="85" start="2308" stop="2313">
+              </node>
+              <node name="CALL" line_number="85" start="0" stop="0">
+                <node name="SELECT" line_number="85" start="0" stop="0">
+                  <node name="jobs" line_number="85" start="2318" stop="2321">
+                  </node>
+                  <node name="size" line_number="85" start="2323" stop="2326">
+                  </node>
+                </node>
+                <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="EXPRESSION_STATEMENT" line_number="86" start="0" stop="0">
+            <node name="/=" line_number="86" start="2341" stop="2342">
+              <node name="avg_rs" line_number="86" start="2334" stop="2339">
+              </node>
+              <node name="CALL" line_number="86" start="0" stop="0">
+                <node name="SELECT" line_number="86" start="0" stop="0">
+                  <node name="jobs" line_number="86" start="2344" stop="2347">
+                  </node>
+                  <node name="size" line_number="86" start="2349" stop="2352">
+                  </node>
+                </node>
+                <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="EXPRESSION_STATEMENT" line_number="87" start="0" stop="0">
+            <node name="CALL" line_number="87" start="0" stop="0">
+              <node name="SELECT" line_number="87" start="0" stop="0">
+                <node name="SELECT" line_number="87" start="0" stop="0">
+                  <node name="System" line_number="87" start="2360" stop="2365">
+                  </node>
+                  <node name="out" line_number="87" start="2367" stop="2369">
+                  </node>
+                </node>
+                <node name="println" line_number="87" start="2371" stop="2377">
+                </node>
+              </node>
+              <node name="ARGUMENTS" line_number="87" start="0" stop="0">
+                <node name="EXPRESSION_LIST" line_number="87" start="0" stop="0">
+                  <node name="+" line_number="87" start="2446" stop="2446">
+                    <node name="+" line_number="87" start="2439" stop="2439">
+                      <node name="+" line_number="87" start="2429" stop="2429">
+                        <node name="+" line_number="87" start="2422" stop="2422">
+                          <node name="+" line_number="87" start="2412" stop="2412">
+                            <node name="+" line_number="87" start="2404" stop="2404">
+                              <node name="&quot;- avg regions per job: &quot;" line_number="87" start="2379" stop="2403">
+                              </node>
+                              <node name="avg_rs" line_number="87" start="2405" stop="2410">
+                              </node>
+                            </node>
+                            <node name="&quot; [min: &quot;" line_number="87" start="2413" stop="2421">
+                            </node>
+                          </node>
+                          <node name="min_rs" line_number="87" start="2423" stop="2428">
+                          </node>
+                        </node>
+                        <node name="&quot;, max: &quot;" line_number="87" start="2430" stop="2438">
+                        </node>
+                      </node>
+                      <node name="max_rs" line_number="87" start="2440" stop="2445">
+                      </node>
+                    </node>
+                    <node name="&quot;]&quot;" line_number="87" start="2447" stop="2449">
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="EXPRESSION_STATEMENT" line_number="88" start="0" stop="0">
+            <node name="CALL" line_number="88" start="0" stop="0">
+              <node name="SELECT" line_number="88" start="0" stop="0">
+                <node name="SELECT" line_number="88" start="0" stop="0">
+                  <node name="System" line_number="88" start="2456" stop="2461">
+                  </node>
+                  <node name="out" line_number="88" start="2463" stop="2465">
+                  </node>
+                </node>
+                <node name="println" line_number="88" start="2467" stop="2473">
+                </node>
+              </node>
+              <node name="ARGUMENTS" line_number="88" start="0" stop="0">
+                <node name="EXPRESSION_LIST" line_number="88" start="0" stop="0">
+                  <node name="+" line_number="88" start="2542" stop="2542">
+                    <node name="+" line_number="88" start="2535" stop="2535">
+                      <node name="+" line_number="88" start="2525" stop="2525">
+                        <node name="+" line_number="88" start="2518" stop="2518">
+                          <node name="+" line_number="88" start="2508" stop="2508">
+                            <node name="+" line_number="88" start="2500" stop="2500">
+                              <node name="&quot;- avg persons per job: &quot;" line_number="88" start="2475" stop="2499">
+                              </node>
+                              <node name="avg_ps" line_number="88" start="2501" stop="2506">
+                              </node>
+                            </node>
+                            <node name="&quot; [min: &quot;" line_number="88" start="2509" stop="2517">
+                            </node>
+                          </node>
+                          <node name="min_ps" line_number="88" start="2519" stop="2524">
+                          </node>
+                        </node>
+                        <node name="&quot;, max: &quot;" line_number="88" start="2526" stop="2534">
+                        </node>
+                      </node>
+                      <node name="max_ps" line_number="88" start="2536" stop="2541">
+                      </node>
+                    </node>
+                    <node name="&quot;]&quot;" line_number="88" start="2543" stop="2545">
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </statement_node>
+        </statement_node>
+      </statement_node>
+      <node name="CONSTRUCTOR_DECLARATION" line_number="0" start="0" stop="0">
+        <node name="MODIFIERS" line_number="0" start="0" stop="0">
+        </node>
+        <node name="FilterRegionsTask" line_number="94" start="2674" stop="2690">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+          <node name="LAST_FORMAL_PARAMETER" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="RegionData" line_number="94" start="2692" stop="2701">
+            </node>
+            <node name="data" line_number="94" start="2706" stop="2709">
+            </node>
+          </node>
+        </node>
+        <node name="CONSTRUCTOR_BODY" line_number="95" start="0" stop="0">
+          <node name="ALTERNATE_CONSTRUCTOR_INVOCATION" line_number="95" start="0" stop="0">
+            <node name="ARGUMENTS" line_number="95" start="0" stop="0">
+              <node name="EXPRESSION_LIST" line_number="95" start="0" stop="0">
+                <node name="CALL" line_number="95" start="0" stop="0">
+                  <node name="SELECT" line_number="95" start="0" stop="0">
+                    <node name="Arrays" line_number="95" start="2722" stop="2727">
+                    </node>
+                    <node name="asList" line_number="95" start="2729" stop="2734">
+                    </node>
+                  </node>
+                  <node name="ARGUMENTS" line_number="95" start="0" stop="0">
+                    <node name="EXPRESSION_LIST" line_number="95" start="0" stop="0">
+                      <node name="data" line_number="95" start="2736" stop="2739">
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="CONSTRUCTOR_DECLARATION" line_number="0" start="0" stop="0">
+        <node name="MODIFIERS" line_number="0" start="0" stop="0">
+        </node>
+        <node name="FilterRegionsTask" line_number="101" start="2862" stop="2878">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+          <node name="FORMAL_PARAMETER" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="INSTANTIATION" line_number="101" start="0" stop="0">
+              <node name="List" line_number="101" start="2880" stop="2883">
+              </node>
+              <node name="TYPE_ARGUMENTS" line_number="101" start="0" stop="0">
+                <node name="RegionData" line_number="101" start="2885" stop="2894">
+                </node>
+              </node>
+            </node>
+            <node name="data" line_number="101" start="2897" stop="2900">
+            </node>
+          </node>
+        </node>
+        <node name="CONSTRUCTOR_BODY" line_number="103" start="0" stop="0">
+          <node name="ALTERNATE_CONSTRUCTOR_INVOCATION" line_number="103" start="0" stop="0">
+            <node name="ARGUMENTS" line_number="103" start="0" stop="0">
+              <node name="EXPRESSION_LIST" line_number="103" start="0" stop="0">
+                <node name="data" line_number="103" start="2919" stop="2922">
+                </node>
+                <node name="CALL" line_number="104" start="0" stop="0">
+                  <node name="SELECT" line_number="104" start="0" stop="0">
+                    <node name="Filtering" line_number="104" start="2930" stop="2938">
+                    </node>
+                    <node name="default_filter" line_number="104" start="2940" stop="2953">
+                    </node>
+                  </node>
+                  <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node name="CONSTRUCTOR_DECLARATION" line_number="111" start="0" stop="0">
+        <node name="MODIFIERS" line_number="111" start="0" stop="0">
+          <node name="private" line_number="111" start="3105" stop="3111">
+          </node>
+        </node>
+        <node name="FilterRegionsTask" line_number="111" start="3113" stop="3129">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+          <node name="FORMAL_PARAMETER" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="INSTANTIATION" line_number="111" start="0" stop="0">
+              <node name="List" line_number="111" start="3131" stop="3134">
+              </node>
+              <node name="TYPE_ARGUMENTS" line_number="111" start="0" stop="0">
+                <node name="RegionData" line_number="111" start="3136" stop="3145">
+                </node>
+              </node>
+            </node>
+            <node name="data" line_number="111" start="3148" stop="3151">
+            </node>
+          </node>
+          <node name="FORMAL_PARAMETER" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="INSTANTIATION" line_number="111" start="0" stop="0">
+              <node name="Function" line_number="111" start="3154" stop="3161">
+              </node>
+              <node name="TYPE_ARGUMENTS" line_number="111" start="0" stop="0">
+                <node name="Person" line_number="111" start="3163" stop="3168">
+                </node>
+                <node name="Boolean" line_number="111" start="3170" stop="3176">
+                </node>
+              </node>
+            </node>
+            <node name="filter_criterion" line_number="111" start="3179" stop="3194">
+            </node>
+          </node>
+        </node>
+        <node name="CONSTRUCTOR_BODY" line_number="112" start="0" stop="0">
+          <statement_node name="EXPRESSION_STATEMENT" line_number="112" start="0" stop="0">
+            <node name="=" line_number="112" start="3212" stop="3212">
+              <node name="SELECT" line_number="0" start="0" stop="0">
+                <node name="THIS" line_number="0" start="0" stop="0">
+                </node>
+                <node name="data" line_number="112" start="3207" stop="3210">
+                </node>
+              </node>
+              <node name="data" line_number="112" start="3214" stop="3217">
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="EXPRESSION_STATEMENT" line_number="113" start="0" stop="0">
+            <node name="=" line_number="113" start="3245" stop="3245">
+              <node name="SELECT" line_number="0" start="0" stop="0">
+                <node name="THIS" line_number="0" start="0" stop="0">
+                </node>
+                <node name="filter_criterion" line_number="113" start="3228" stop="3243">
+                </node>
+              </node>
+              <node name="filter_criterion" line_number="113" start="3247" stop="3262">
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="EXPRESSION_STATEMENT" line_number="114" start="0" stop="0">
+            <node name="=" line_number="114" start="3275" stop="3275">
+              <node name="result" line_number="114" start="3268" stop="3273">
+              </node>
+              <node name="UNQUALIFIED_CLASS_INSTANCE_CREATION" line_number="114" start="0" stop="0">
+                <node name="MutableInt" line_number="114" start="3281" stop="3290">
+                </node>
+                <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                </node>
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="EXPRESSION_STATEMENT" line_number="115" start="0" stop="0">
+            <node name="CALL" line_number="115" start="0" stop="0">
+              <node name="SELECT" line_number="115" start="0" stop="0">
+                <node name="results" line_number="115" start="3298" stop="3304">
+                </node>
+                <node name="add" line_number="115" start="3306" stop="3308">
+                </node>
+              </node>
+              <node name="ARGUMENTS" line_number="115" start="0" stop="0">
+                <node name="EXPRESSION_LIST" line_number="115" start="0" stop="0">
+                  <node name="result" line_number="115" start="3310" stop="3315">
+                  </node>
+                </node>
+              </node>
+            </node>
+          </statement_node>
+        </node>
+      </node>
+      <statement_node name="METHOD_DECLARATION" line_number="0" start="0" stop="0">
+        <node name="MODIFIERS" line_number="0" start="0" stop="0">
+        </node>
+        <node name="int" line_number="121" start="3431" stop="3433">
+        </node>
+        <node name="getPersonsToFilter" line_number="121" start="3435" stop="3452">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+        </node>
+        <statement_node name="BLOCK" line_number="0" start="0" stop="0">
+          <statement_node name="LOCAL_VARIABLE_DECLARATION" line_number="0" start="0" stop="0">
+            <node name="MODIFIERS" line_number="0" start="0" stop="0">
+            </node>
+            <node name="int" line_number="122" start="3460" stop="3462">
+            </node>
+            <node name="VARIABLE_DECLARATOR" line_number="122" start="0" stop="0">
+              <node name="work" line_number="122" start="3464" stop="3467">
+              </node>
+              <node name="0" line_number="122" start="3471" stop="3471">
+              </node>
+            </node>
+          </statement_node>
+          <statement_node name="for" line_number="123" start="3477" stop="3479">
+            <node name="ENHANCED_FOR_CONTROL" line_number="0" start="0" stop="0">
+              <node name="MODIFIERS" line_number="0" start="0" stop="0">
+              </node>
+              <node name="RegionData" line_number="123" start="3481" stop="3490">
+              </node>
+              <node name="rd" line_number="123" start="3492" stop="3493">
+              </node>
+              <node name="data" line_number="123" start="3497" stop="3500">
+              </node>
+            </node>
+            <statement_node name="BLOCK" line_number="124" start="0" stop="0">
+              <statement_node name="EXPRESSION_STATEMENT" line_number="124" start="0" stop="0">
+                <node name="+=" line_number="124" start="3513" stop="3514">
+                  <node name="work" line_number="124" start="3508" stop="3511">
+                  </node>
+                  <node name="CALL" line_number="124" start="0" stop="0">
+                    <node name="SELECT" line_number="124" start="0" stop="0">
+                      <node name="SELECT" line_number="124" start="0" stop="0">
+                        <node name="rd" line_number="124" start="3516" stop="3517">
+                        </node>
+                        <node name="inhabitants" line_number="124" start="3519" stop="3529">
+                        </node>
+                      </node>
+                      <node name="size" line_number="124" start="3531" stop="3534">
+                      </node>
+                    </node>
+                    <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+                    </node>
+                  </node>
+                </node>
+              </statement_node>
+            </statement_node>
+          </statement_node>
+          <statement_node name="return" line_number="126" start="3547" stop="3552">
+            <node name="work" line_number="126" start="3554" stop="3557">
+            </node>
+          </statement_node>
+        </statement_node>
+      </statement_node>
+      <statement_node name="METHOD_DECLARATION" line_number="0" start="0" stop="0">
+        <node name="MODIFIERS" line_number="0" start="0" stop="0">
+        </node>
+        <node name="int" line_number="132" start="3658" stop="3660">
+        </node>
+        <node name="getRegionsToFilter" line_number="132" start="3662" stop="3679">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+        </node>
+        <statement_node name="BLOCK" line_number="133" start="0" stop="0">
+          <statement_node name="return" line_number="133" start="3687" stop="3692">
+            <node name="CALL" line_number="133" start="0" stop="0">
+              <node name="SELECT" line_number="133" start="0" stop="0">
+                <node name="data" line_number="133" start="3694" stop="3697">
+                </node>
+                <node name="size" line_number="133" start="3699" stop="3702">
+                </node>
+              </node>
+              <node name="ARGUMENTS" line_number="0" start="0" stop="0">
+              </node>
+            </node>
+          </statement_node>
+        </statement_node>
+      </statement_node>
+      <statement_node name="METHOD_DECLARATION" line_number="136" start="0" stop="0">
+        <node name="MODIFIERS" line_number="136" start="0" stop="0">
+          <node name="public" line_number="136" start="3719" stop="3724">
+          </node>
+        </node>
+        <node name="VOID" line_number="0" start="0" stop="0">
+        </node>
+        <node name="run" line_number="136" start="3731" stop="3733">
+        </node>
+        <node name="FORMAL_PARAMETERS" line_number="0" start="0" stop="0">
+        </node>
+        <statement_node name="BLOCK" line_number="137" start="0" stop="0">
+          <statement_node name="EXPRESSION_STATEMENT" line_number="137" start="0" stop="0">
+            <node name="=" line_number="137" start="3754" stop="3754">
+              <node name="SELECT" line_number="137" start="0" stop="0">
+                <node name="result" line_number="137" start="3742" stop="3747">
+                </node>
+                <node name="val" line_number="137" start="3749" stop="3751">
+                </node>
+              </node>
+              <node name="CALL" line_number="137" start="0" stop="0">
+                <node name="SELECT" line_number="137" start="0" stop="0">
+                  <node name="Filtering" line_number="137" start="3756" stop="3764">
+                  </node>
+                  <node name="count_regions" line_number="137" start="3766" stop="3778">
+                  </node>
+                </node>
+                <node name="ARGUMENTS" line_number="137" start="0" stop="0">
+                  <node name="EXPRESSION_LIST" line_number="137" start="0" stop="0">
+                    <node name="data" line_number="137" start="3780" stop="3783">
+                    </node>
+                    <node name="filter_criterion" line_number="137" start="3786" stop="3801">
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </statement_node>
+        </statement_node>
+      </statement_node>
+    </node>
+  </statement_node>
+</node>
