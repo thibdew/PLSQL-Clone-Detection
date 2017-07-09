@@ -10,6 +10,7 @@ Clone Detection with PMD (token based) and Clone Digger (tree based).
 $ cd tool_pmd/bin
 $ ./run.sh cpdgui
 ```
+In the GUI select the source folder containing the query-files. Select 'PL/SQL' as language. After getting the results, they can be saved as an XML-file by selecting 'File' > 'Save as XML'. 
 
 ##### CLI
 
