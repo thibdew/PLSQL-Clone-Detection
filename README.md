@@ -39,5 +39,11 @@ $ clonedigger -l plsql --cpd-output Path/To/PLSQL-Queries
 Generates output.xml with clones. 
 
 
-## Categorizing clones, displaying clones (HTML), ...
-Coming soon.
+## Categorizing clones, displaying clones (HTML), combining clone instances
+Some helpertools are created:
+* **Create Query Files** - To create single SQL-files from teh exported query list by CALI 
+* **Combine Query instances** - Clone Digger outputs clones is pairs instead of classes. This tool can be used to create classes from those pairs.
+* **Categorize Clones** - Create three categories of clones
+* **Easely view clones** - Use this tool to generate an interactive HTML-file to easily view the clones
+
+The usage and installation of these tools is explained in the README file in each corresponding directory.
