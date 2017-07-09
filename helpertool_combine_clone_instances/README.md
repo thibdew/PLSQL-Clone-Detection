@@ -13,3 +13,4 @@ $ cd helpertool_combine_clone_instances
 $ java CombineClone [CloneDiggerCloneFile.xml]
 ```
 `[CloneDiggerCloneFile.xml]` is the location of a XML-file Clones found by Clone Digger.
+It creates `generatedoutput.xml` as output. It may take a while to complete.
