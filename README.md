@@ -1,6 +1,11 @@
 # PL/SQL Clone Detection
 Clone Detection with PMD (token based) and Clone Digger (tree based).
 
+## Contents
+1. PMD
+2. Clone Digger
+3. Typical usage pattern
+4. Helper tools
 
 ## PMD
 ### Usage
@@ -38,6 +43,13 @@ $ clonedigger -l plsql --cpd-output Path/To/PLSQL-Queries
 ```
 Generates output.xml with clones. 
 
+## Typical use pattern
+A typical use pattern:
+* Convert the single XML-file with all the exported queries to separate SQL-files. *See 'helpertool_create_query_files'.*
+* Use PMD or Clone Digger on the SQL-files to generate an clone.xml file with all found clones.
+* If Clone Digger has been used, convert the output to clone classes. *See 'helpertool_combine_clone_instances'.*
+* Categorize the foundclones based on some heuristics. *See 'helpertool_categorize_clones'.*
+* Create an HTML-file to easily view all found clones. *See 'helpertool_clone_viewer'.*
 
 ## Categorizing clones, displaying clones (HTML), combining clone instances
 Some helpertools are created:
