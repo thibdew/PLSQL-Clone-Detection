@@ -20,6 +20,7 @@ $ cd tool_pmd/bin
 $ ./run.sh cpdgui
 ```
 In the GUI select the source folder containing the query-files. Select 'PL/SQL' as language. After getting the results, they can be saved as an XML-file by selecting 'File' > 'Save as XML'. 
+*Note: because of a bug the selected source folder is wrongly displayed. The last part of the path is shown twice. Simply delete the last part of the path to make it work.*
 
 ##### CLI
 
